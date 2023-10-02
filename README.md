@@ -1,4 +1,4 @@
-# 📖 codeLabsPrueba
+# 📖 Page-Marletti
 dashboard de productos de campo realizada con HTML, CSS, JS 
 ### ✍️ Swipper
 Se utiliza libreria Swiper.js para sliders de variedades de productos
