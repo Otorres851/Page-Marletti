@@ -1,0 +1,140 @@
+/* contacto............... */
+
+
+.contact__container{
+  padding: 25px 100px;
+  background-color: var(--green-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__content{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.phone{
+  display: flex;
+  color: var(--green-text-color);
+}
+
+.icon__text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  font-family: FuturaLT-Book;
+  letter-spacing: 2px;
+}
+
+.icon__text_h4{
+  border-bottom: 2px dotted var(--green-text-color);
+}
+
+.content__icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-fondo-icons);
+}
+
+.content__icon img{
+  width: 15px;
+  height: 15px;
+}
+
+.email{
+  display: flex;
+  color: var(--green-text-color);
+}
+
+
+.location{
+  display: flex;
+  color: var(--green-text-color);
+}
+
+.content__icon__location{
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--green-fondo-icons);
+}
+
+.content__icon__location img{
+  width: 15px;
+  height: 15px;
+}
+
+.social__media{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social__title{
+  color: var(--green-text-color);
+  font-family: FuturaLT-Book;
+  letter-spacing: 1px;
+}
+
+.social__icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon__face{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-fondo-icons);
+}
+
+.icon__face img{
+  width: 15px;
+  height: 15px;
+}
+
+.icon__twitter{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-fondo-icons);
+}
+
+.icon__twitter img{
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 900px) {
+  /* location respons.......... */
+  .contact__container{
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__content{
+    height: 50vh;
+  }
+
+  .social__media{
+    height: 50vh;
+  }
+}

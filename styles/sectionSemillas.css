@@ -1,0 +1,83 @@
+/* section semillas...................... */
+
+.semillas__container{
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(142, 142, 142, 0.3);
+  background-image: url('../assets/img/portada.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semilla__backgorund_content{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(142, 142, 142, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semilla__textContent{
+  width: 50%;
+  text-align: center;
+  font-family: IntroScriptR-H2Base;
+  font-size: 65px;
+  font-weight: 100;
+  color: var(--white-color);
+}
+
+@media (max-width: 900px) {
+  .header__container{
+    display: none;
+  }
+
+  .header__title_engMovile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 100px;
+  }
+
+  .header__title_engMovile img{
+    width: 30px;
+    height: 30px;
+  }
+  .header__title_engMovile p{
+    color: var(--white-color);
+    font-family: FuturaLT-Book;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .semillas__container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .semilla__backgorund_content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.5);
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .semilla__textContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: IntroScriptR-H2Base;
+    font-size: 50px;
+    font-weight: 100;
+    color: var(--white-color);
+  }
+
+  .semilla__textConten p{
+    width: 3000px;
+  }
+}

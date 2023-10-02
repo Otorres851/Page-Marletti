@@ -1,0 +1,77 @@
+/* publicidad y eventos..................... */
+
+.eventos__container{
+  padding: 25px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventos__title p{
+  color: var(--blackText-clor);
+  font-family: FuturaLT-Oblique;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.cardsEvent__container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.cards__content{
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.cards__content img{
+  width: 100%;
+}
+
+.cards__content h3{
+  font-family: CondensedBold;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--green-color);
+  margin-top: 20px;
+}
+
+.cards__content p{
+  color: var(--blackText-clor);
+  margin-top: 20px;
+  font-family: FuturaLT-Book;
+  line-height: 35px;
+}
+
+.cards__content button{
+  width: 180px;
+  height: 50px;
+  background-color: var(--green-color);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: FuturaLT-Book;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.cards__content button a{
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+@media (max-width: 900px) {
+  /* eventos responsive */
+  .eventos__container{
+    padding: 25px 0;
+  }
+
+  .cardsEvent__container {
+    display: block;
+  }
+}

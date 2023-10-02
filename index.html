@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marletti</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/sectionSemillas.css">
+  <link rel="stylesheet" href="./styles/variedades.css">
+  <link rel="stylesheet" href="./styles/filosofioa.css">
+  <link rel="stylesheet" href="./styles/eventos.css">
+  <link rel="stylesheet" href="./styles/contacto.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./styles/swiper.css">
+</head>
+<body>
+  <header>
+    <div class="header__container">
+      <div class="header__title_eng">
+        <p>ENG</p>
+      </div>
+      <nav class="header__content_navbar">
+        <div class="logo__image_content">
+          <img src="./assets/img/logo_marletti.png" alt="">
+        </div>
+        <div class="nav__content">
+          <ul>
+            <li><a href="#quienesSomos" class="text__navAncla">QUIENES SOMOS</a></li>
+            <li><a class="variedades__content" href="#variedades">VARIEDADES</a></li>
+            <li><a class="insumos__content" href="#insumos">INSUMOS</a></li>
+            <li><a href="#contacto" class="text__navAncla">CONTACTO</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="quienesSomos">
+    <div class="semillas__container">
+      <div class="semilla__backgorund_content">
+        <div class="header__title_engMovile">
+          <div class="toggle" onclick="toggleMenu()"></div>
+          <p>ENG</p>
+        </div>
+        <div class="semilla__textContent">
+          <p>Semillas que son el horizonte del futuro</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="variedades__container" id="variedades">
+    <div class="variedades__title">
+      <p>Conoce nuestras variedades</p>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="flowers__imgContent">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent2">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent3">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent2">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent3">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent2">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flowers__imgContent3">
+            <div class="flower__text_content">
+              <div class="border__context">
+                <button>VER VARIEDAD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="filosofia__container" id="insumos">
+    <div class="filosofia__backgorund_content">
+      <div class="filosofia__text_content">
+        <div>
+          <h1>Nuestra filosofia</h1>
+          <p>Observamos como nuestras manos son testigo de los frutos que plantamos cuidadosamente, analizamos como el resultado es la evidencia de un trabajo constante y fiel a una visión inicial</p>
+        </div>
+        <button href="#">VER MÁS</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="eventos__container">
+    <div class="eventos__title">
+      <p>Publicaciones y eventos</p>
+    </div>
+    <div class="cardsEvent__container" id="cards__template">
+      <!-- template -->
+    </div>
+  </section>
+
+  <section class="contact__container" id="contacto">
+    <div class="map__image">
+      <img src="./assets/img/ubicacion.png" alt="imagen mapa">
+    </div>
+    <div class="contact__content">
+      <div class="phone">
+        <a href="#" class="content__icon">
+          <img src="./assets/icons/phone-solid.svg" alt="icnono telefono">
+        </a>
+        <div class="icon__text">
+          <h4 class="icon__text_h4">(+57)000 0000</h4>
+        </div>
+      </div>
+      <div class="email">
+        <a href="#" class="content__icon">
+          <img src="./assets/icons/envelope-solid.svg" alt="icono correo">
+        </a>
+        <div class="icon__text">
+          <h4 class="icon__text_h4">info@frankoamerica.com</h4>
+        </div>
+      </div>
+      <div class="location">
+        <a href="#" class="content__icon__location">
+          <img src="./assets/icons/location-dot-solid.svg" alt="icono localicación">
+        </a>
+        <div class="icon__text">
+          <h4>Desague 12 via Tenjo LA punta Vda. El estanco, Lote san vicente, Tenjo Cundinamarca - Colombia</h4>
+        </div>
+      </div>
+    </div>
+    <div class="social__media">
+      <div class="social__title">
+        <h3>Nuestras redes sociales</h3>
+      </div>
+      <div class="social__icons">
+        <a href="https://es-la.facebook.com/" class="icon__face" target="_blank">
+          <img src="./assets/icons/facebook-f-brands.svg" alt="icono facebook">
+        </a>
+        <a href="https://twitter.com/" class="icon__twitter" target="_blank">
+          <img src="./assets/icons/twitter-brands.svg" alt="icono twitter">
+        </a>
+      </div>
+      <div></div>
+    </div>
+  </section>
+
+  <footer class="footer__container">
+    <div class="text__year">
+      <p>©2018 Marletti SAS</p>
+    </div>
+    <div class="text__company">
+      <p>Though by Code Labs</p>
+    </div>
+  </footer>
+
+ 
+
+  <div class="sidebar">
+    <div class="sidebar__container">
+      <div class="menu__logoContent">
+        <img src="./assets/img/logo2.png" alt="imagen logo">
+      </div>
+      <div class="nav__contentMenu">
+        <ul>
+          <li>
+            <a href="#quienesSomos" onclick=" toggleMenu()"class="text__navAncla">
+              QUIENES SOMOS
+            </a>
+          </li>
+          <li>
+            <div class="itemMenu__content_var">
+              <a href="#variedades" onclick=" toggleMenu()">
+                VARIEDADES
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="itemMenu__content_insu">
+              <a href="#insumos" onclick=" toggleMenu()">
+                INSUMOS
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#contacto" onclick=" toggleMenu()" class="text__navAncla">
+              CONTACTO
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__iconsContact">
+        <a href="https://es-la.facebook.com/" target="_blank">
+          <img src="./assets/icons/facebook__menu.svg" alt="icono facebook">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="./assets/icons/twitter__menu.svg" alt="icono twitter">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/peticionJSON.js"></script>
+  <script>
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle');
+      const sidebar = document.querySelector('.sidebar');
+      menuToggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

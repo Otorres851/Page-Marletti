@@ -1,0 +1,117 @@
+/* variedades.................. */
+
+.variedades__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px;
+}
+
+.variedades__title{
+  color: var(--blackText-clor);
+  padding: 30px 0;
+}
+
+.variedades__title p{
+  font-family: FuturaLT-Oblique;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.variedades__iconNext img{
+  width: 15px;
+  height: 15px;
+}
+
+.carousel__flowers{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flowers__imgContent{
+  width: 220px;
+  height: 220px;
+  background-image: url('../assets/img/flor1.png');
+  background-size: cover;
+}
+.flowers__imgContent2{
+  width: 220px;
+  height: 220px;
+  background-image: url('../assets/img/flor2.png');
+  background-size: cover;
+}
+.flowers__imgContent3{
+  width: 220px;
+  height: 220px;
+  background-image: url('../assets/img/flor3.png');
+  background-size: cover;
+}
+.flowers__imgContent4{
+  width: 220px;
+  height: 220px;
+  background-image: url('../assets/img/flor1.png');
+  background-size: cover;
+}
+
+.flower__text_content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.flower__text_content:hover{
+  background-color: rgba(1, 1, 1, 0.5);
+
+}
+
+.border__context{
+  width: 85%;
+  height: 85%;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border__context:hover{
+  width: 85%;
+  height: 85%;
+  border: 1px solid var(--white-color);
+}
+
+.border__context button{
+  width: 150px;
+  height: 60px;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid transparent;
+  color: transparent;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: FuturaLT-Book;
+  cursor: pointer;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+.border__context button:hover{
+  border: 2px solid var(--white-color);
+  color: var(--white-color);
+}
+
+
+/* respopnsive */
+@media (max-width: 900px) {
+  /* variedades respons........ */
+  .variedades__container{
+    width: 100%;
+    padding: 0;
+  }
+}

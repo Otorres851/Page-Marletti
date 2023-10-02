@@ -1,0 +1,72 @@
+/* head................... */
+
+.header__container{
+  padding: 30px 100px;
+}
+
+.header__title_eng{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: var(--green-color);
+  font-family: FuturaLT-Book;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.header__title_engMovile{
+  display: none;
+}
+
+.header__content_navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__image_content div{
+  width: 100%;
+}
+
+.nav__content {
+  width: 100%;
+}
+
+.nav__content ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__content ul li{
+  margin-left: 35px;
+  list-style: none;
+  color: var(--blackText-clor)
+}
+
+.nav__content ul li a{
+  text-decoration: none;
+  font-family: FuturaLT-Book;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.text__navAncla{
+  color: var(--blackText-clor);
+}
+
+.variedades__content{
+  width: 100px;
+  background-color: var(--green-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--white-color);
+}
+
+.insumos__content{
+  background-color: var(--blueAqua--color);
+  color: var(--white-color);
+  padding: 10px;
+  border-radius: 5px;
+}

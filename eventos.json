@@ -1,0 +1,16 @@
+{
+  "Eventos" : [
+    {
+      "imagen": "./assets/img/eventos.png",
+      "titulo": "Titulo 1",
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, voluptate distinctio in reiciendis aspernatur quibusdam excepturi id aliquid corporis deserunt laborum, nihil error corrupti eligendi quo laudantium, eius nulla a?",
+      "link": "https://www.google.com/"
+    },
+    {
+      "imagen": "./assets/img/eventos.png",
+      "titulo": "Titulo 2",
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, voluptate distinctio in reiciendis aspernatur quibusdam excepturi id aliquid corporis deserunt laborum, nihil error corrupti eligendi quo laudantium, eius nulla a?",
+      "link": "https://www.google.com/"
+    }
+  ]
+}

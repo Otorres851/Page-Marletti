@@ -1,0 +1,22 @@
+/* footer........... */
+
+.footer__container{
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blackText-clor);
+  padding: 0px 45px;
+  font-family: FuturaLT-Book;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 19px;
+}
+
+.text__year{
+  color: var(--green-color);
+}
+
+.text__company{
+  color: var(--green-color);
+}
